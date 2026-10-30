@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter & IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Large model checkpoints (track directory structure, ignore binaries)
+saved_models/*.pt
+saved_models/*.bin
+saved_models/*.safetensors
+saved_models/*.joblib
+saved_models/*.h5
+!saved_models/.gitkeep
+
+# Temporary archives
+*.zip
+*.tar.gz
